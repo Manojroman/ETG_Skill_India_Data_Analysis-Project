@@ -55,7 +55,7 @@ In the Summer.ipynb: - Initially I have written the code to read values for summ
                                   Then sorted it in reverse order with respect to values of popularity.Then finally I plotted bar chart of TOP 5 Events with most popularity 
                                   with the data I have analysed.             
                                   
-                      - Question 5. Which player has won most number Gold Medals of medals? (Top 5)
+                      - Question 8. Which sport is having most female Gold Medalists? (Top 5)
                        
                         My Answer: I have written the code to get the Women_Athlete who having no of gold medals and coverted it to dataframe as medal[medal=df[df['Medal']=='Gold']]     
                                   With the dataframe I Analysed the Women_Player who is having the most number of gold medals by converting them into 2d list of Women_Athlete and no of gold medals
