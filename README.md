@@ -48,9 +48,22 @@ In the Summer.ipynb: - Initially I have written the code to read values for summ
                                    indian_medal and then to get no of gold medals won by INDIA [ indian_medal[indian_medal['Country']=='IND'] ].From the dataframe having 
                                    the list of gold medals won by INDIA I print the first values using .head(1) function.
                                 
+                     - Question 7. Which event is most popular in terms on number of players? (Top 5)
+                       
+                        My Answer: I have written the code to get the Event which having most poppularity and coverted it to dataframe as medal[df[df['Event']==event])]]     
+                                  With the dataframe I Analysed the Event which is having the most popularity by converting them into 2d list of Event and popularity
+                                  Then sorted it in reverse order with respect to values of popularity.Then finally I plotted bar chart of TOP 5 Events with most popularity 
+                                  with the data I have analysed.             
+                                  
+                      - Question 5. Which player has won most number Gold Medals of medals? (Top 5)
+                       
+                        My Answer: I have written the code to get the Women_Athlete who having no of gold medals and coverted it to dataframe as medal[medal=df[df['Medal']=='Gold']]     
+                                  With the dataframe I Analysed the Women_Player who is having the most number of gold medals by converting them into 2d list of Women_Athlete and no of gold medals
+                                  Then sorted it in reverse order with respect to values of gold medals.Then finally I plotted bar chart of TOP 5 Women_Player with most no of gold medals 
+                                  with the data I have analysed.
                                   
                                   
-                      
+                                  
 
                    Thank you for Reading this file, Have a Nice Day.....
 About Me: I am M.MANOJ , studying BCA Final year at C.Abdul Hakeem college ,I had started studying python basis during the covid period, then I Enhanced my skill by practicing code everyday and learning new methods amd concepts.Now I have joined in skill India internship conducted by ELITE Techno groups to enchance my skill further more with proper learning.
