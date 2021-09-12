@@ -36,7 +36,7 @@ In the Summer.ipynb: - Initially I have written the code to read values for summ
                                                                    
                       - Question 5. Which player has won most number Gold Medals of medals? (Top 5)
                        
-                        My Answer: I have written the code to get the Athlete who having no of gold medals and coverted it to dataframe as medal medal=df[df['Medal']=='Gold']]     
+                        My Answer: I have written the code to get the Athlete who having no of gold medals and coverted it to dataframe as medal[medal=df[df['Medal']=='Gold']]     
                                   With the dataframe I Analysed the Player who is having the most number of gold medals by converting them into 2d list of Athlete and no of gold medals
                                   Then sorted it in reverse order with respect to values of gold medals.Then finally I plotted bar chart of TOP 5 Player with most no of gold medals 
                                   with the data I have analysed.
@@ -44,7 +44,7 @@ In the Summer.ipynb: - Initially I have written the code to read values for summ
                                   
                       - Question 6. In which year India won first Gold Medal in Summer Olympics?
                        
-                        My Answer: I have written the code to get the unique value of Gold medal winning countries [df[df['Medal']=='Gold']] and given dataframe name as                                              indian_medal and then to get no of gold medals won by INDIA [ indian_medal[indian_medal['Country']=='IND'] ].From the dataframe having the list                                    of gold medals won by INDIA I print the first values using .head(1) function.
+                        My Answer: I have written the code to get the unique value of Gold medal winning countries [df[df['Medal']=='Gold']] and given dataframe name as       indian_medal and then to get no of gold medals won by INDIA [ indian_medal[indian_medal['Country']=='IND'] ].From the dataframe having the list                                    of gold medals won by INDIA I print the first values using .head(1) function.
                                 
                                   
                                   
