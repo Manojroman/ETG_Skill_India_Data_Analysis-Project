@@ -44,7 +44,7 @@ In the Summer.ipynb: - Initially I have written the code to read values for summ
                                   
                       - Question 6. In which year India won first Gold Medal in Summer Olympics?
                        
-                        My Answer: I have written the code to get the unique value of Gold medal winning countries [df[df['Medal']=='Gold']] and given dataframe name as       indian_medal and then to get no of gold medals won by INDIA [ indian_medal[indian_medal['Country']=='IND'] ].From the dataframe having the list                                    of gold medals won by INDIA I print the first values using .head(1) function.
+                        My Answer: I have written the code to get the unique value of Gold medal winning countries [df[df['Medal']=='Gold']] and given dataframe name as indian_medal and then to get no of gold medals won by INDIA [ indian_medal[indian_medal['Country']=='IND'] ].From the dataframe having the list of gold medals won by INDIA I print the first values using .head(1) function.
                                 
                                   
                                   
